@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Toon_Lit TriPlanar Snow
+  m_Shader: {fileID: 4800000, guid: 1cb5067a742d9384aa01940004f16be4, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 29f14e1658d8120449972a20ac38d819, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexBase:
+        m_Texture: {fileID: 2800000, guid: 86716e9dc36d8b345bf45589cc0866e2, type: 3}
+        m_Scale: {x: 0.66, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: ae34b695b180a3c43a5e439f5070a1e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: e1425d42a5ab0c2448fdc21f2baa372a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SparkleNoise:
+        m_Texture: {fileID: 2800000, guid: 29f14e1658d8120449972a20ac38d819, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Edgewidth: 0.0869
+    - _MaxTessDistance: 62.4
+    - _NoiseScale: 0.05
+    - _NoiseWeight: 0.108
+    - _RimPower: 1.13
+    - _Scale: 0.188
+    - _SnowDepth: 0.38
+    - _SnowHeight: 0.21
+    - _SnowTextureOpacity: 0.569
+    - _SnowTextureScale: 0.687
+    - _SparkCutoff: 0.1
+    - _SparkleScale: 0.16
+    - _Tess: 32
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor2: {r: 0.5865967, g: 0.8613625, b: 0.9811321, a: 1}
+    - _Color: {r: 0.4583482, g: 0.6179314, b: 0.754717, a: 1}
+    - _EdgeColor: {r: 0.37525588, g: 0.6698235, b: 0.8396226, a: 1}
+    - _MainCol: {r: 0.5028248, g: 0, b: 1, a: 1}
+    - _PathColor: {r: 0.28627452, g: 0.49705398, b: 0.5176471, a: 1}
+    - _RimColor: {r: 0.15382478, g: 0.27735105, b: 0.31132078, a: 1}
+    - _ToonRamp: {r: 0.05549128, g: 0.16648202, b: 0.2735849, a: 1}
+  m_BuildTextureStacks: []
