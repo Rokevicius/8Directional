@@ -30,6 +30,7 @@ public class PointClickController : Actor
     private void Update()
     {
         ProcessMovement();
+        Shader.SetGlobalVector("_PositionMoving", transform.position);
         //if (myAgent.velocity.sqrMagnitude > Mathf.Epsilon)
         //{
         //    transform.rotation = Quaternion.LookRotation(myAgent.velocity.normalized);
